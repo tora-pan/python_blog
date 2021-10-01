@@ -6,7 +6,8 @@ requires = (
     "flask-sqlalchemy",
     "flask_wtf",
     "WTForms",
-    "email-validator"
+    "email-validator",
+    "flask-bcrypt"
 )
 
 def read(fname):
