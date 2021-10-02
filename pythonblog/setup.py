@@ -7,7 +7,8 @@ requires = (
     "flask_wtf",
     "WTForms",
     "email-validator",
-    "flask-bcrypt"
+    "flask-bcrypt",
+    "flask-login"
 )
 
 def read(fname):
